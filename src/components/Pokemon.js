@@ -1,9 +1,9 @@
 import React from "react";
 
 const Pokemon = (props) => {
-  const typePokemons = props.pokeProp.types.map((pokemons, i) => {
+  const typePokemons = props.pokeProp.types.map((pokemons, id) => {
     return (
-      <li key={pokemons.id} className="types">
+      <li key={id} className="types">
         {pokemons}
       </li>
     );
