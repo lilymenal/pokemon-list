@@ -14,7 +14,7 @@ class PokeList extends React.Component {
     });
     return (
       <div className="container">
-        <ul>{item}</ul>
+        <ul className="itemContainer">{item}</ul>
       </div>
     );
   }

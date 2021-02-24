@@ -1,0 +1,11 @@
+.pokeList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

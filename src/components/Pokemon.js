@@ -1,7 +1,7 @@
 import React from "react";
 
 const Pokemon = (props) => {
-  const itemPokemons = props.pokeProp.types.map((pokemons, i) => {
+  const typePokemons = props.pokeProp.types.map((pokemons, i) => {
     return (
       <li key={pokemons.id} className="types">
         {pokemons}
@@ -9,11 +9,11 @@ const Pokemon = (props) => {
     );
   });
   return (
-    <article className="Container">
-      <h2>{props.pokeProp.name}</h2>
+    <div className="Container">
       <img src={props.pokeProp.url}></img>
-      <ul>{itemPokemons}</ul>
-    </article>
+      <h2>{props.pokeProp.name}</h2>
+      <ul>{typePokemons}</ul>
+    </div>
   );
 };
 export default Pokemon;
