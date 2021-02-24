@@ -11,8 +11,8 @@ const Pokemon = (props) => {
   return (
     <div className="Container">
       <img src={props.pokeProp.url}></img>
-      <h2>{props.pokeProp.name}</h2>
-      <ul>{typePokemons}</ul>
+      <h2 className="name">{props.pokeProp.name}</h2>
+      <ul className="typePokemons">{typePokemons}</ul>
     </div>
   );
 };

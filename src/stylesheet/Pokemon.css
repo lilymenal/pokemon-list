@@ -1,5 +1,43 @@
+.Container {
+  /*width: 200px;*/
+  background-color: white;
+  border-color: darkslategray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .pokeList {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  /*padding: 5px;
+  justify-content: space-between;*/
+  text-transform: capitalize;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.typePokemons {
+  display: flex;
+  flex-direction: row;
+  /*padding: 5px;*/
+  justify-content: space-between;
+}
+
+.types {
+  display: flex;
+  justify-content: flex-start;
+  background-color: dimgrey;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+  /*text-align: center;
+  justify-content: space-around;*/
+  list-style-type: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }

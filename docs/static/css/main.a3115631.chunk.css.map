@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,UAGE,sBACF,CAEA,yBALE,YAAa,CACb,kBAQF,CAJA,eAGE,cACF","file":"main.a3115631.chunk.css","sourcesContent":[".pokeList {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n}\n\n.itemContainer {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n"]}
