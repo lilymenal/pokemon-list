@@ -1,4 +1,5 @@
 import React from "react";
+import "../stylesheet/Pokemon.css";
 
 const Pokemon = (props) => {
   const typePokemons = props.pokeProp.types.map((pokemons, id) => {
@@ -9,7 +10,7 @@ const Pokemon = (props) => {
     );
   });
   return (
-    <div className="Container">
+    <div className="containerPoke">
       <img src={props.pokeProp.url}></img>
       <h2 className="name">{props.pokeProp.name}</h2>
       <ul className="typePokemons">{typePokemons}</ul>
