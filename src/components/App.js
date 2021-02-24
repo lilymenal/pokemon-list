@@ -1,10 +1,10 @@
 import React from "react";
-import ClubList from "./ClubList";
-import clubs from "../data/data.json";
+import PokeList from "./PokeList";
+import pokemons from "../data/data.json";
 
 class App extends React.Component {
   render() {
-    return <ClubList clubs={clubs} />;
+    return <PokeList pokemons={pokemons} />;
   }
 }
 export default App;
