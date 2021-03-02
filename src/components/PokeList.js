@@ -13,6 +13,7 @@ class PokeList extends React.Component {
     });
     return (
       <div className="container">
+        <h1 className="tittle">Mi lista de Pokemon</h1>
         <ul className="itemContainer">{item}</ul>
       </div>
     );

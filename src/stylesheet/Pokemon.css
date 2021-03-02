@@ -1,14 +1,17 @@
 .containerPoke {
   background-color: white;
-  border-color: darkslategray;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border: solid 1px gray;
+  border-radius: 5px;
+  width: 18vw;
 }
 
 .name {
   display: flex;
   flex-direction: row;
+  border: solid 1px gray;
   text-transform: capitalize;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
